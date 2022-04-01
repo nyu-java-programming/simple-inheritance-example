@@ -13,7 +13,7 @@ public class TestApp {
         objects[2] = new C();
 
         // loop through the array of A objects
-        System.out.println("\nLooping through in array...\n");
+        System.out.println("\nLooping through objects in array...\n");
         for (int i=0; i<objects.length; i++) {
             // get access to each object
             A thisObj = objects[i];
@@ -39,7 +39,9 @@ public class TestApp {
 
         // deal with D, which does not inherit from C, B, or A
         // this is an example of composition: the D object contains a C object that can be used within the D object
+        System.out.println("\nCreating a D object...\n");
         D dObj = new D();
+        System.out.println("\nCalling the methods of the C object encapsulated within the D object...\n");
         dObj.getCObj().foo();
         dObj.getCObj().bar();
         dObj.getCObj().bum();
