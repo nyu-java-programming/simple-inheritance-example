@@ -5,7 +5,7 @@ public class A {
     private String message;
 
     public A() {
-        // System.out.println("A object");
+        System.out.println("A object created");
         this.setMessage("Hello");
     }
 

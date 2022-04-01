@@ -9,6 +9,7 @@ public class D {
      * This is not inheritance, but rather composition.
      */
     public D() {
+        System.out.println("D object created");
         C cObj = new C("Goodbye");
         this.cObj = cObj;
     }

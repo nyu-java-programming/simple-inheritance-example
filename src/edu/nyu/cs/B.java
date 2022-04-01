@@ -3,7 +3,7 @@ package edu.nyu.cs;
 public class B extends A {
     public B() {
         super(); // run A's constructor
-        // System.out.println("B object");
+        System.out.println("B object created");
     }
     
     /**

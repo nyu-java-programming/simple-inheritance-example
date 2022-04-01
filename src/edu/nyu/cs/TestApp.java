@@ -2,6 +2,7 @@ package edu.nyu.cs;
 
 public class TestApp {
     public static void main(String[] args) throws Exception {
+        System.out.println("\nInstantiating objects to put in array...\n");
         // create an array of 3 A objects
         A[] objects = new A[3];
 
@@ -12,6 +13,7 @@ public class TestApp {
         objects[2] = new C();
 
         // loop through the array of A objects
+        System.out.println("\nLooping through in array...\n");
         for (int i=0; i<objects.length; i++) {
             // get access to each object
             A thisObj = objects[i];

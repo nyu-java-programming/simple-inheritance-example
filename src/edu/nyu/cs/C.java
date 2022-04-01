@@ -4,6 +4,7 @@ public class C extends B {
 
     public C() {
         super(); // run B's constructor
+        System.out.println("C object created");
     }
 
     // an overloaded constructor that accepts a message
